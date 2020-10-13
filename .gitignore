@@ -1,1 +1,12 @@
+
+web/.pnp
+web/.pnp.js
+web/coverage
+web/build
 web/node_modules
+
+web/.env
+
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
