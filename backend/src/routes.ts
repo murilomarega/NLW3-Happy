@@ -37,7 +37,7 @@ const upload = multer(uploadConfig);
 //index, show, create, update, delete => metodos padões controller
 
 routes.get('/orphanages', OrphanagesController.index);
-routes.get('/orphanages/:id', OrphanagesController.show);
+routes.get('/orphanage/:id', OrphanagesController.show);
 routes.post('/orphanages', upload.array('images'), OrphanagesController.create);
 
 
