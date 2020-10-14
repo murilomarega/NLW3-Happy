@@ -10,3 +10,9 @@ web/.env
 web/npm-debug.log*
 web/yarn-debug.log*
 web/yarn-error.log*
+
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+backend/node_modules

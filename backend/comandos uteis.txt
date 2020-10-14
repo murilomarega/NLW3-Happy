@@ -1,0 +1,3 @@
+yarn typeorm migration:create -m (nome da migration) => cria uma migração rodando o comando "yarn typeorm" configurado no package.json
+yarn typeorm migration:run => roda as migrações criadas
+yarn typeorm migration:revert => revert a ultima migração
