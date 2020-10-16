@@ -3,6 +3,7 @@ import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet'
 
 import { FiPlus } from "react-icons/fi";
+import { FaTimes } from "react-icons/fa";
 
 import Sidebar from "../components/Sidebar";
 
@@ -120,6 +121,14 @@ export default function CreateOrphanage() {
               <label htmlFor="images">Fotos</label>
 
               <div className="images-container">
+                {previewImages.map(image => {
+                  return (
+                    <div className="delete-image">
+                      <FaTimes size={24} color="#15b6d6" />
+                    </div>
+                  )
+                }
+                )}
                 {previewImages.map(image => {
                   return (
                     <img key={image} src={image} alt={name} />

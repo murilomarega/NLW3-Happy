@@ -17,3 +17,6 @@ backend/yarn-error.log*
 
 backend/node_modules
 backend/uploads
+
+mobile/node_modules
+
